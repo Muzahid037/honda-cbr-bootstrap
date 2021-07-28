@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f0fd726199.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap stylesheet  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Honda CBR 300R</title>
+</head>
+
+<body>
+
+    <header class="">
+
+        <!-- Menu starts  -->
+        <nav class="navbar navbar-expand-lg navbar-light py-5">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn bg-orange text-white mx-5 px-4" type="button">Login</button>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Menu ends  -->
+
+        <!-- top banner starts  -->
+        <section class="container-fluid my-4 pb-5">
+            <div class="row g-4 d-flex align-items-center justify-content-center">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h1 class="fw-bold">Honda CBR 300R</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate fuga explicabo architecto
+                        quaerat reiciendis repudiandae mollitia eos veniam rerum unde rerum unde rerum unde rerum unde.
+                    </p>
+
+                    <!-- Button trigger modal -->
+                     <button type="button" class="btn bg-orange text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"> Purchase </button>
+
+                    <!-- Modal starts -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Hey Buddy welcome to purchase Modal</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- <h5 class="text-primary">Popover in a modal</h5>
+                                    <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+                                    <hr>
+                                    <h5>Tooltips in a modal</h5>
+                                    <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p> -->
+                                    <p class="text-secondary">
+                                        Congratulations wishes for buying a new bike. Life is a journey and I hope that your new bike would add more thrilling experience to your life. Wish you good luck with your new ride!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary"> <i class="fas fa-shopping-cart me-2"></i>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal starts  -->
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <img width="" class="img-fluid pe-4" src="img/header-bike.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- top banner ends  -->
+
+    </header>
+
+    <main>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+
+    <!-- Bootstrap Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus()
+        })
+    </script>
+</body>
+
+</html>

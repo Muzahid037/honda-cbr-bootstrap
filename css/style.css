@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #264653;
+    color: white;
+}
+
+.bg-orange{
+    background-color: #E76F51;
+}
+.modal-text{
+    color: teal;
+}
